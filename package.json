@@ -1,0 +1,34 @@
+{
+  "name": "pimatic-playstation",
+  "version": "1.0.0",
+  "description": "Pimatic plugin to wake up your PS4 on demand. This is useful if you have a button for turning on the TV etc.",
+  "main": "playstation",
+  "configSchema": "playstation-config-schema.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hongkongkiwi/pimatic-playstation4-wakeup.git"
+  },
+  "keywords": [
+    "ps4",
+    "pimatic",
+    "playstation",
+    "home",
+    "automation"
+  ],
+  "author": "Andy Savage <andy@savage.hk> (http://andy.savage.hk)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hongkongkiwi/pimatic-playstation4-wakeup/issues"
+  },
+  "homepage": "https://github.com/hongkongkiwi/pimatic-playstation4-wakeup#readme",
+  "dependencies": {
+    "gumer-psn": "git+https://github.com/ankjevel/gumer-psn.git",
+    "ps4-waker": "^0.7.6"
+  },
+  "peerDependencies": {
+    "pimatic": ">=0.8.0 <1.0.0"
+  }
+}
